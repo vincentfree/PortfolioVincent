@@ -7,5 +7,6 @@ node_js:
 before_script:
   - 'npm install -g bower grunt-cli'
   - 'bower install'
+  - 'npm install viscompass'
   - 'apt-get install ruby'
   - 'gem install compass'
